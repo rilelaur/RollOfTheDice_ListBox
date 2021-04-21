@@ -50,6 +50,8 @@ Public Class RollOfTheDiceForm
         'writes the rolled numbers line
         RollOfTheDiceListBox.Items.Add(rolledRow)
 
+        'writes the line after rolled row
+        RollOfTheDiceListBox.Items.Add(StrDup(94, "-"))
     End Sub
 
     'Generates a random number
